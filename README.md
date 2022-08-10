@@ -35,4 +35,4 @@ Round j to 0dp (whole number)
 
 Draw image at `i, l` (`x, y`)
 
-![Image]("https://github.com/404-WasFound/2d-isometric-graphics/blob/main/screenshot.jpg")
+![Image](https://github.com/404-WasFound/2d-isometric-graphics/blob/main/screenshot.jpg)
