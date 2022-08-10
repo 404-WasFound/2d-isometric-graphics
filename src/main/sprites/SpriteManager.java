@@ -17,17 +17,10 @@ public class SpriteManager {
 
         this.gp = gp;
 
-        tiles.add(new Tile(1, 1, 1, gp, "1"));
-        tiles.add(new Tile(1, 1, 2, gp, "1"));
-
-        tiles.add(new Tile(1, 2, 1, gp, "5"));
-        tiles.add(new Tile(1, 2, 2, gp, "1"));
-
-        tiles.add(new Tile(5, 1, 2, gp, "1"));
-        tiles.add(new Tile(6, 1, 2, gp, "1"));
-        tiles.add(new Tile(6, 1, 3, gp, "2"));
-
-        tiles.add(new Tile(9, 1, 6, gp, "3"));
+        tiles.add(new Tile(4, 1, 4, gp, "1"));
+        tiles.add(new Tile(6, 1, 4, gp, "1"));
+        tiles.add(new Tile(5, 2, 4, gp, "1"));
+        tiles.add(new Tile(5, 3, 4, gp, "1"));
 
         sortTileY();
 
