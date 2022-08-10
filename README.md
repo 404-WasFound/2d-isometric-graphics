@@ -24,12 +24,12 @@ z = 8
 Round i to 0dp (whole number) - This is to make sure that there are no errors where you try and draw the image at a float value
 
 (float) new_x_j = x * 0.25 * TILESIZE (80)
-```
-`(float) new_z_j = z * 0.25 * TILESIZE` (64)
-`(int) j = new_x_j + new_z_j` (144)
-Round `j` to 0dp (whole number)
+(float) new_z_j = z * 0.25 * TILESIZE (64)
+(int) j = new_x_j + new_z_j (144)
+Round j to 0dp (whole number)
 
-`(int) l = j - (y * (TILESIZE / 2))` (96)
+(int) l = j - (y * (TILESIZE / 2)) (96)
+```
 
 ### Rendering
 
