@@ -9,6 +9,7 @@ This is a fun and simple way to create isometric graphics in a 2D renderer. I ma
 ### Calculations
 
 To get the `i` and `j` positions (The positions relative to `x` and `y`) there is a simple bit of maths involved to calculate the new positions for the images.
+`l` (`y`) isn't a real dimension in the rendering, I implemented it to work with layers. The `l` / `y` is just the same as the regular screen dimensions.
 
 For Example:
 ```
